@@ -96,7 +96,7 @@ To see how well you perform in the leaderboard, you need to edit the **load_rank
 
 You must beat the "baseline" on the leaderboard to get full credit, i.e. your "Overall Score" should be greater than the Overall Score of the baseline. The last column on the Leaderboard indicates whether you completed this requirement or not (1 or 0). 
 
-The leaderboard also shows more details of the performance (NDCG@10). "Overall Score" is computed as 0.1* NDCG@10 on APNews + 0.3* NDCG@10 on Cranfield + 0.1* NDCG@10 on Faculty dataset.
+The leaderboard also shows more details of the performance (NDCG@10). "Overall Score" is computed as 0.1* NDCG@10 on APNews + 0.3* NDCG@10 on Cranfield + 0.6* NDCG@10 on Faculty dataset.
 
 
 ## Bonus: Top ranked in Search Competition Leaderboard
