@@ -9,7 +9,7 @@ query-judgements = "cranfield-qrels.txt"
 
 [[analyzers]]
 method = "ngram-word"
-ngram = 2
+ngram = 1
 filter = "default-unigram-chain"
 
 [query-runner]
