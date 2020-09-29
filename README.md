@@ -102,6 +102,6 @@ The leaderboard also shows more details of the performance (NDCG@10). "Overall S
 ## Bonus: Top ranked in Search Competition Leaderboard
 
 Try to get a top position in the competition leaderboard. The higher your rank is, the more extra credit you will receive. The rank is based on "Overall Score".
-Our grading formula for the competition is  5-(Rank-1)/10, where Rank is the position of the student. 
+Our grading formula for the competition is  max(0, 5-(Rank-1)/10) where Rank is the position of the student. This means that about 50 students will receive an extra credit greater than 0. Students with the same score will receive the same extra credit.
 
 You will not immediately see the extra credit score on Coursera since it depends on your final rank in the leaderboard when the deadline is over. We will add your extra credit score on Coursera later.
