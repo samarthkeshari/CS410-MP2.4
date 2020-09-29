@@ -9,7 +9,7 @@ In the final part of MP2, you will participate in a search competition where you
 **The evaluation results will be displayed on the leaderboard on LiveDataLab. Only your latest submission results will be displayed here.
 Also, the grader will use the default config.toml and stopwords.txt files provided here. So, changing these files will not make any impact on the scores. Please modify search_eval.py only to potentially notice any changes in the scores.**
 
-## Due: Oct 18, 2020 
+## Due: Oct 18, 2020 at 11:59 pm CDT
 
 **NOTE:** If you've completed Part2, you should be familiar with the basics: Setup, Indexing and Searching the Data. We've included these sections in this README again for convenience. So, feel free to skip directly to the Competition Tasks section!
 
@@ -94,11 +94,14 @@ To see how well you perform in the leaderboard, you need to edit the **load_rank
 
 ## Grading
 
-You must beat the baseline on the leaderboard to get full credit.
+You must beat the "baseline" on the leaderboard to get full credit, i.e. your "Overall Score" should be greater than the Overall Score of the baseline. The last column on the Leaderboard indicates whether you completed this requirement or not (1 or 0). 
+
+The leaderboard also shows more details of the performance (NDCG@10). "Overall Score" is computed as 0.1* NDCG@10 on APNews + 0.3* NDCG@10 on Cranfield + 0.1* NDCG@10 on Faculty dataset.
+
 
 ## Bonus: Top ranked in Search Competition Leaderboard
 
 Try to get a top position in the competition leaderboard. The higher your rank is, the more extra credit you will receive.
 Our grading formula for the competition is  5-(Rank-1)/10, where Rank is the position of the student. 
 
-You will not immediately see the extra credit on Coursera. We will add it later
+You will not immediately see the extra credit on Coursera. We will add it later.
